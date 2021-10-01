@@ -1,0 +1,67 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- TextView -->
+    <style name="title_small_dark">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_med</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="title_small_light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_med</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="title_medium_dark">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_large</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="title_medium_light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_large</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="title_large_dark">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_xlarge</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="title_large_light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/dimen_xlarge</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="desc_small_dark">
+        <item name="android:textSize">@dimen/dimen_small</item>
+        <item name="android:textColor">@color/colorDarkGrey</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="desc_small_light">
+        <item name="android:textSize">@dimen/dimen_small</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorRustyRed</item>
+    </style>
+
+</resources>
